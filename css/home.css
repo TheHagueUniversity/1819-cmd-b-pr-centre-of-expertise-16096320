@@ -191,15 +191,14 @@
 .nb-container {
 	color: #00C0FF;
 	border: solid 3px #00C0FF;
-	width: 940px;
+	width: 960px;
 	height: 205px;
 	margin: 25px auto;
-	padding: 10px;
 }
 
 .nb-box {
 	float: left;
-	width: 380px;
+	width: 400px;
 }
 
 .inlog-box{
@@ -207,15 +206,22 @@
 }
 
 .nb-dim{
-	height: 200px;
+	height: 195px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-right: solid 1px #00c0ff;
 }
 
+.nb-input-mail{
+	border: none;
+	border-bottom: solid 1px #00c0ff;
+}
+
 .inl-input{
 	display: block;
-	margin: 10px auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 250px;
 }
 
 .nb-input{
@@ -223,6 +229,54 @@
 }
 
 .inlog-box {
-	width: 280px;
+	width: 260px;
+	border: none;
 }
-	
+
+.reg-box{ 
+	color:white;
+	width: 160px;
+	background-color: #00c0ff;
+	text-align: center;
+	height: 205px;
+	float: right;
+}
+
+#reg-btn{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #F4AB00;
+	border-radius: 10px;
+	padding:10px;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+#reg-btn:hover{
+	color: #F4AB00;
+	background-color: white;
+	padding: 8px;
+	border: #F4AB00 solid 2px;
+}
+
+.av-btn{
+	color: #F4AB00;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.av-btn:hover{
+	text-decoration: underline;
+}
+
+.inl-btn{
+	float: right;	
+	margin:10px;
+	display: inline-block;
+}
+
+.nb-text{
+	font-size: 13px;
+	margin-top:-10px;
+}
