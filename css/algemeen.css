@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+body {
+	font-family: Ubuntu, Helvetica;
+	color: #00007D;	
+}
+
+.container {
+	width:1000px;
+	margin: auto;
+}
+
+header {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align:right;
+	border-bottom: solid 2px #00007D;
+	padding: 59px 20px 20px;
+}
+
+#header-logo {
+	width:325px;
+	float:left;
+	margin-top: -20px;
+}
+
+#header-logo:hover {
+	cursor: pointer;
+}
+
+.utility {
+	margin-top: -50px;
+	float: right;
+}
+
+#inlog-link {
+	
+	color:#00007D;
+	font-weight:bold;
+	font-size: 18px;
+}
+
+#navbar > li {
+	display:inline;
+	margin-right: 10px;
+	font-size:18px;
+}
+
+#navbar > li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#search-icon {
+	width: 28px;
+}
+
+#search-icon:hover{
+	cursor: pointer;
+}
+
+#navbar {
+	display:inline;
+	margin-top:20px;
+}
+
+main {
+	margin-bottom: 30px;
+}

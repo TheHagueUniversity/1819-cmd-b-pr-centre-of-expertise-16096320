@@ -1,0 +1,28 @@
+.foot-sect {
+	float: left;
+	margin: 25px 60px;
+}
+
+.foot-title {
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+.foot-links li {
+	margin-bottom: 15px;
+}
+
+.foot-links {
+	list-style-type: none;
+	padding:0;
+}
+
+.foot-con {
+	margin-top:30px;
+	position: absolute;
+	bottom: 0;
+	width: 1000px;
+	height: 300px;
+	background-color:#00007D;
+	color:white;
+}

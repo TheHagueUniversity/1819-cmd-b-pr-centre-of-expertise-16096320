@@ -1,0 +1,223 @@
+
+#nart-1 {
+	background-image: url("../img/articles/nart1.jpg");
+}
+
+#nart-2 {
+	background-image: url("../img/articles/nart2.jpg");
+}
+
+#nart-3 {
+	background-image: url("../img/articles/nart3.png");
+}
+
+#nart-4 {
+	background-image: url("../img/articles/nart4.jpg");
+}
+
+#part-1 {
+	background-image: url("../img/articles/part1.jpg");
+}
+
+#part-2 {
+	background-image: url("../img/articles/part2.jpg");
+}
+
+#part-3 {
+	background-image: url("../img/articles/part3.jpg");
+}
+
+#part-4 {
+	background-image: url("../img/articles/part4.jpeg");
+}
+
+.art-box {
+	width: 475px;
+	height: 185px;
+	float:left;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.25s;
+	color: white;
+	position: relative;
+}
+
+.art-box .art-titel, .art-box .art-text, .art-box .lm-btn{
+	color: white;
+	z-index: 1;
+	position: relative;
+	margin: 10px;
+}
+ 
+.art-box-r {
+	text-align: right;
+}
+
+.art-box:after {
+	content: '';
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right:0;
+	left:0;
+	background-color: #000;
+	opacity: .75;
+	z-index: 0;
+	transition: 0.25s;
+}
+
+.art-box:hover {
+	background-size: 120%;
+}
+
+.art-box:hover:after {
+	cursor: pointer;
+	opacity: .35;
+}
+
+.glow-box {
+	width: 960px;
+	height: 380px;
+	margin: auto;
+}
+
+.slogan-box {
+	display: inline-block;
+	width: 960px;
+	text-align: center;
+	font-style: italic;
+	color: #00C0FF;
+}
+
+.art-box .art-titel{
+	font-size: 24px;
+}
+
+.art-box .art-text-l {
+	font-size: 14px;
+	width: 300px;
+	height: 25px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	right:0;
+	transition: 0.1s;
+}
+
+.art-box .art-text-r {
+	font-size: 14px;
+	width: 300px;
+	height: 25px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	transition: 0.1s;
+}
+
+.art-box .art-text:hover {
+	height: 100px;
+}
+
+.art-box .lm-btn-r{
+	color:#F4AB00;
+	font: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+}
+
+.art-box .lm-btn-l{
+	color:#F4AB00;
+	font: 16px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 10px;
+}
+
+.art-box .pr-titel {
+	width: 475px;
+	height: 185px;
+	text-align: center;
+	line-height: 175px;
+}
+
+.glow-box-pr .pr-box {
+	font-size:32px;
+}
+
+.glow-box-pr .pr-box:hover {
+	font-style: 42px;
+	width: 475px;
+	height: 185px;
+	text-align: center;
+	line-height: 175px;
+}
+
+.even-container h2{
+	font-size: 24px;
+	display: inline-block;
+	margin-left: 22px;
+}
+
+.even-slide {
+	border: solid 3px #00007D;
+	width: 960px;
+	height: 210px;
+	margin:auto;
+}
+
+.even-slide span {
+	display: inline-block;
+	margin: 10px;	
+}
+
+.even-box {
+	width: 240px;
+	height: 125px;
+	background-color: grey;
+	margin: 15px 25px;
+	float: left;
+}
+.even-last {
+	clear: right;
+}
+
+.even-first {
+	clear: left;
+}
+
+.nb-container {
+	color: #00C0FF;
+	border: solid 3px #00C0FF;
+	width: 940px;
+	height: 205px;
+	margin: 25px auto;
+	padding: 10px;
+}
+
+.nb-box {
+	float: left;
+	width: 400px;
+}
+
+.inlog-box{
+	float: left;
+}
+
+.nb-dim{
+	height: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: solid 1px #00c0ff;
+}
+
+.inl-input{
+	display: block;
+	margin: 10px auto;
+}
+
+.nb-input{
+	width: 290px;
+}
