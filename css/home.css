@@ -199,7 +199,7 @@
 
 .nb-box {
 	float: left;
-	width: 400px;
+	width: 380px;
 }
 
 .inlog-box{
@@ -221,3 +221,8 @@
 .nb-input{
 	width: 290px;
 }
+
+.inlog-box {
+	width: 280px;
+}
+	
