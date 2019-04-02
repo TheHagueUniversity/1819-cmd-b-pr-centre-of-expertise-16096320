@@ -9,7 +9,7 @@
 			<div class="container">
 				<header>
 					<nav class="utility"><a href="https://www.google.com/" id="inlogink">Inloggen/Registreren</a></nav>
-					<img src="img/LogoCoE.png" alt="Logo Centre of Expertise" id="header-logo"/>
+					<img src="img/LogoCoE.png" alt="Logo Centre of Expertise" id="header-logo"/><!-- REVIEW: escape hatch? Figure tag? -->
 					<nav>
 						<ul id="navbar">
 							<li>Nieuws</li>
@@ -23,8 +23,8 @@
 				</header>
 				<main>
 					<section class="glow-box">
-						<div class="art-box art-box-l" id="nart-1">
-							<div class="art-titel">Titel van het artikel</div>
+						<div class="art-box art-box-l" id="nart-1"><!-- REVIEW: article of list item? -->
+							<div class="art-titel">Titel van het artikel</div><!-- REVIEW: h1 -->
 							<p class="art-text art-text-r">Hier komt een heleboel tekst over het artikel, Hier komt nog meer tekst over het artikel, woorden aanvullen zodat het ten minste legit lijkt.</p>
 							<a href="https://www.nu.nl/" class=" lm-btn lm-btn-r" target="_blank">Lees meer</a>
 						</div>
@@ -44,12 +44,12 @@
 							<a href="https://www.nu.nl/" class="lm-btn lm-btn-l">Lees meer</a>
 						</div>
 					</section>
-					<div class="slogan-box">
+					<div class="slogan-box"> <!-- REVIEW: waarom een div en geen section? -->
 						<h1>Let’s change. You. Us. The world.</h1>
 					</div>
 					<section class="glow-box glow-box-pr">
-						<div class="art-box pr-box" id="part-1">
-							<h3 class="art-titel pr-titel">Titel van het artikel</h3>
+						<div class="art-box pr-box" id="part-1"> <!-- REVIEW: article of list item? -->
+							<h3 class="art-titel pr-titel">Titel van het artikel</h3> <!-- REVIEW: waarom is dit opeens een h3? -->
 						</div>
 						<div class="art-box pr-box" id="part-2">
 							<h3 class="art-titel pr-titel">Titel van het artikel</h3>
@@ -67,9 +67,9 @@
 							<span class="even-first">Aankomende</span>
 							<span class="even-last">Afgelopen</span>
 							<div class="even-box-cont">
-								<div class="even-box">
-									<h5 class="even-titel">Event titel</h5>
-									<h6 class="even-data">Datum en Plaats</h6>
+								<div class="even-box"><!-- REVIEW: article of list itme -->
+									<h5 class="even-titel">Event titel</h5> <!-- REVIEW: h5? Dit is toch best belangrijk? -->
+									<h6 class="even-data">Datum en Plaats</h6> <!-- REVIEW: datum en plaats kan nooit een titel zijn -->
 								</div>
 								<div class="even-box">
 									<h5 class="even-titel">Event titel</h5>
@@ -78,10 +78,10 @@
 							</div>
 						</div>
 					</section>
-					<section class="nb-container">
+					<section class="nb-container"> <!-- REVIEW:  is dit niet stiekem de footer? -->
 							<div class="nb-box nb-dim">
 								<h3>Nieuwsbrief</h3>
-								<input type="email" name="nb-input" class="nb-input-mail nb-input" placeholder="E-mail"/>
+								<input type="email" name="nb-input" class="nb-input-mail nb-input" placeholder="E-mail"/><!-- REVIEW: form tag? submit? -->
 								<a href="https://www.google.nl/" class="av-btn">Aanvragen</a>
 								<h5>Extra informatie</h6>
 								<p class="nb-text">U ontvangt de nieuwsbrief wekelijks op elke woensdag in de ochtend.
@@ -89,7 +89,7 @@ Bij het aanmaken van een account kunt u deze instellingen wijzigen naar uw voork
 							</div>
 							<div class="inlog-box nb-dim">
 								<h3>Inloggen</h3>
-								<input type="email" name="inl-input-mail" class="nb-input-mail inl-input" placeholder="E-mail" />
+								<input type="email" name="inl-input-mail" class="nb-input-mail inl-input" placeholder="E-mail" /> <!-- REVIEW: form tag? submit? -->
 								<input type="password" name="nb-input-pw" class="nb-input-mail inl-input" placeholder="Wachtwoord" />
 								<a href="https://www.google.nl/" class="av-btn inl-btn">Inloggen</a>
 							</div>
@@ -100,11 +100,10 @@ Bij het aanmaken van een account kunt u deze instellingen wijzigen naar uw voork
 					</section>
 				</main>
 				<footer>
-					<div class="footer-con">
-						
+					<div class="footer-con"><!-- REVIEW: waarom een div? -->
+
 					</div>
 				</footer>
 			</div>
 		</body>
 	</html>
-
